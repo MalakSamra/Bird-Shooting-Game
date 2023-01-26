@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shooting Bird Game</title>
+    <link rel="stylesheet" href="./CSS/gameStyle.css">
+</head>
+<body>
+    <div class="gameContainer">
+        <div class="Headings">
+            <div>Name : <span class="userName"></span></div>
+            <div>Score : <span class="score">0</span></div>
+            <div>TimeLimit : <span class="timer"></span></div>
+            <div>BirdsKilled : <span class="birdsKilled">0</span></div>
+        </div>
+        <div class="darkBackground">
+            <div class="alertDiv">
+                <h2>Welcome <span class="userName"></span></h2>
+                <p class="prevData"></p>
+                <p>We hope you enjoy the game</p>
+                <p>To win, you should kill 25 (black & white) birds & achieve score greater than 50 in specific time</p>
+                <button class="startBtn">Start Game</button>
+            </div>
+            <div class="winDiv">
+                <img src="./images/HappyBird.png" alt="HappyBird">
+                <h2>GoodJob <span class="userName"></span> You Win</h2>
+                <p>Your Score : <span class="score"></span></p>
+            </div>
+            <div class="lossDiv">
+                <img src="./images/SadBird.png" alt="SadBird">
+                <h2>Unfortunately <span class="userName"></span> You Lose</h2>
+                <p>Your Score : <span class="score"></span></p>
+            </div>
+        </div>
+        <div class="gameRunning">
+            <div class="birdsContainer"></div>
+            <img src="./images/target.png" class="targetImg">
+            <img src="./images/bombAfter.png" class="bombAfter">
+            <img src="./images/bloodSpot.jpg" class="bloodSpot">
+        </div>
+    </div>
+    <script src="./Scripts/gameFunctions.js"></script>
+    <script src="./Scripts/game2.js"></script>
+</body>
+</html>

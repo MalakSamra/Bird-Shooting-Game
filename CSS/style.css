@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+/*Intro Style*/
+.container{
+    margin: 0 auto;
+    width: 214vh;
+    height: 100vh;
+    background-image: url("../images/Game-intro2.jpg");
+    background-size: 100% 100%;
+    display: flex;
+}
+.dataEntry{
+    padding: 30px;
+    width: 400px;
+    height: 350px;
+    margin: auto;
+    background-color: rgba(145, 145, 145, 0.684);
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+}
+h1{
+    color: rgb(1, 7, 91);
+}
+h2{
+    margin: 15px;
+    color: rgb(197, 59, 13);
+}
+select{
+    height: 30px;
+    width: 80%;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin: 15px 0;
+    background-color: rgba(216, 207, 207, 0.515)
+}
+.nameInput{
+    height: 50px;
+    width: 80%;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin: 15px 0;
+}
+.ErrorMsg{
+    color: red;
+    font-weight: bold;
+    font-size: x-large;
+    display: none;
+}
+.goButton{
+    height: 45px;
+    width: 15%;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 145, 255);
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.goButton:hover{
+    background-color: rgb(15, 91, 158);
+    color: white;
+}
+.PointsDeclaration{
+    padding: 30px;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    background-color: rgba(145, 145, 145, 0.684);
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+}
+.PointsDeclaration img{
+    height: 100px;
+    width: 80px;
+}
+.whiteBirdPoints{
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+}
+.smallBirdPoints{
+    font-size: 30px;
+    font-weight: bold;
+    color: yellow;
+}
+.largeBirdPoints{
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}

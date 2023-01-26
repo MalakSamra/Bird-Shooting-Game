@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shooting Bird Game Intro</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="./game.html" method="get" class="dataEntry">
+            <h1>Shooting Birds Game</h1>
+            <label><h2>Select Game Level</h2></label>
+            <select>
+                <option>Choose a Level</option>
+                <option>Level 1</option>
+            </select>
+            <h2>Enter Your Name</h2>
+            <input type="text" class="nameInput" placeholder="Enter Your Name"  required>
+            <br>
+            <span class="ErrorMsg">Name is Required</span>
+            <br>
+            <input type="submit" value="Go" class="goButton">
+        </form>
+        <br>
+        <div class="PointsDeclaration">
+            <h1>Game Bird Shooting Points</h1>
+            <table>
+                <tr>
+                    <td><img src="./images/Bird1.gif" alt="whiteBird" class="whiteBird"></td>
+                    <td class="whiteBirdPoints">+5 Points</td>
+                </tr>
+                <tr>
+                    <td><img src="./images/Bird2.gif" alt="smallBird" class="smallBird"></td>
+                    <td class="smallBirdPoints">+10 Points</td>
+                </tr>
+                <tr>
+                    <td><img src="./images/Bird3.gif" alt="largeBird" class="largeBird"></td>
+                    <td class="largeBirdPoints">-10 Points</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+    <script src="./Scripts/main.js"></script>
+</body>
+</html>
